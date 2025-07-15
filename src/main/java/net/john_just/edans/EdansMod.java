@@ -65,7 +65,6 @@ public class EdansMod
         NeoForge.EVENT_BUS.register(new ChatHandler());
         NeoForge.EVENT_BUS.register(new PlayerConnectionHandler());
         //NeoForge.EVENT_BUS.register(new PlayerSkillHandler());
-        NeoForge.EVENT_BUS.register(new PlayerConnectionHandler());
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
