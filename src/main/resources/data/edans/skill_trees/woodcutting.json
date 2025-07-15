@@ -1,0 +1,5 @@
+{
+  "axe_speed_1": { "name": "Тёсать быстрее I",   "prereq": [] },
+  "axe_speed_2": { "name": "Тёсать быстрее II",  "prereq": ["axe_speed_1"] },
+  "double_drop": { "name": "Двойной дроп",       "prereq": ["axe_speed_2"] }
+}
