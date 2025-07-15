@@ -31,12 +31,16 @@ public class JournalScreen extends Screen {
 
     @Override protected void init() {
         int cx = width / 2;
-        btnProfile = Button.builder(Component.literal("Профиль"),
-                b -> showProfile = true).bounds(cx-60, 10, 60, 20).build();
+        btnProfile = Button.builder(Component.literal("Профиль"), b -> {
+            showProfile = true;
+            profTab.reload();
+        }).bounds(cx-60, 10, 60, 20).build();
         btnFriends = Button.builder(Component.literal("Игроки"),
                 b -> showProfile = false).bounds(cx, 10, 60, 20).build();
         addRenderableWidget(btnProfile);
         addRenderableWidget(btnFriends);
+
+        profTab.reload();
     }
 
     public void refreshProfileTab() {
