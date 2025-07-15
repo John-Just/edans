@@ -1,0 +1,17 @@
+{
+  "break": [
+    { "id": "minecraft:oak_log",           "skill": "WOODCUTTING", "xp": 0.17 },
+    { "tag": "minecraft:ores",            "skill": "MINING",      "xp": 1.00 },
+    { "id": "minecraft:diamond_ore",      "skill": "MINING",      "xp": 5.00 }
+  ],
+
+  "craft": [
+    { "result_tag": "forge:ingots/iron",  "skill": "SMITHING",    "xp": 3.0 },
+    { "result_id" : "minecraft:furnace",  "skill": "SMITHING",    "xp": 8.0 }
+  ],
+
+  "mint": [
+    { "coin": "edans:copper_coin",        "skill": "MINTING",     "xp": 1.5 },
+    { "coin": "edans:gold_coin",          "skill": "MINTING",     "xp": 4.0 }
+  ]
+}
